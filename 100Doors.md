@@ -65,11 +65,11 @@ print(findOpenDoors(n))
 ### Javascript Implementation
 
 ```javascript
-var findOpenDoors = (n) => {
-    d = [];
+const findOpenDoors = (n) => {
+    let d = [];
 
     for(var i=1; i<=100; i++){
-        var sqrt = Math.sqrt(i);
+        let sqrt = Math.sqrt(i);
 
         if(sqrt === (sqrt | 0))
             d.push(i);
@@ -78,7 +78,7 @@ var findOpenDoors = (n) => {
     return d;
 }
 
-var n = 100;
+let n = 100;
 
 console.log(findOpenDoors(n));
 ```
