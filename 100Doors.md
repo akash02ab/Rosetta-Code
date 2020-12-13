@@ -62,7 +62,7 @@ print(findOpenDoors(n))
 
 <br>
 
-### Java-script Implementation
+### Javascript Implementation
 
 ```javascript
 var findOpenDoors = (n) => {
