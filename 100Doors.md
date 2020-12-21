@@ -17,9 +17,9 @@ let n = 50
 all the factors of 50 are [1, 2, 5, 10, 25, 50]
 
 also,
-1 x 50 = 50,
-2 x 25 = 50,
-5 x 25 = 50
+<br>1 x 50 = 50,
+<br>2 x 25 = 50,
+<br>5 x 25 = 50
 
 note that 50 has 6 factors (even).
 
@@ -30,11 +30,11 @@ all the factors of 36 are [1, 2, 3, 4, 6, 9, 12, 18, 36]
 note that 36 has 9 factors (odd).
 
 also,
-1 x 36 = 36,
-2 x 18 = 36,
-3 x 12 = 36,
-4 x 9 = 36,
-6 x 6 = 36 (since all the other factors are paired up)
+<br>1 x 36 = 36,
+<br>2 x 18 = 36,
+<br>3 x 12 = 36,
+<br>4 x 9 = 36,
+<br>6 x 6 = 36 (since all the other factors are paired up)
 
 So, we can conclude that door will left open for numbers having odd number of factors and the numbers that have odd number of factors are the one having perfect squares.
 
