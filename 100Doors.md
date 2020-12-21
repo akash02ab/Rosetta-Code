@@ -9,7 +9,7 @@ Implement a function to determine the state of the doors after the last pass. Re
 
 ## Solution
 
-```
+
 let's take a number between 1 and 100 as n.
 
 let n = 50
@@ -37,7 +37,7 @@ also,
 6 x 6 = 36 (since all the other factors are paired up)
 
 So, we can conclude that door will left open for numbers having odd number of factors and the numbers that have odd number of factors are the one having perfect squares.
-```
+
 
 <br>
 
