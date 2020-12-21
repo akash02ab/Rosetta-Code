@@ -19,7 +19,7 @@ all the factors of 50 are [1, 2, 5, 10, 25, 50]
 also,
 <br>1 x 50 = 50,
 <br>2 x 25 = 50,
-<br>5 x 25 = 50
+<br>5 x 10 = 50
 
 note that 50 has 6 factors (even).
 
