@@ -6,11 +6,28 @@ There are 100 doors in a row that are all initially closed. You make 100 passes 
 
 Implement a function to determine the state of the doors after the last pass. Return the final result in an array, with only the door number included in the array if it is open.
 
+<br>
+
+| Input | Output |
+| --- | --- |
+| `n`: number of doors | `arr[]`: doors which are open |
+
+<br>
+
+## Example
+
+```
+input:
+100
+
+output:
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+```
+<br>
 
 ## Solution
 
-
-let's take a number between 1 and 100 as n.
+let's take a number between 1 and 100 and call it `n`.
 
 let n = 50
 
@@ -41,13 +58,13 @@ So, we can conclude that door will left open for numbers having odd number of fa
 
 <br>
 
-### Python Implementation
+## Python Implementation
 
 ```python
 def findOpenDoors(n):
     d = []
     
-    for i in range(1, 101):
+    for i in range(1, n + 1):
         sqrt = i ** 0.5
         
         if sqrt == int(sqrt):
@@ -55,30 +72,13 @@ def findOpenDoors(n):
 
     return d
 
-n = 100
+n = int(input())
 
 print(findOpenDoors(n))
 ```
 
 <br>
 
-### Javascript Implementation
-
-```javascript
-const findOpenDoors = (n) => {
-    let d = [];
-
-    for(var i=1; i<=100; i++){
-        let sqrt = Math.sqrt(i);
-
-        if(sqrt === (sqrt | 0))
-            d.push(i);
-    }
-
-    return d;
-}
-
-let n = 100;
-
-console.log(findOpenDoors(n));
-```
+## Time and Space Complexity
+T(n) = **O(n)**
+<br>S(n) = **O(1)**
