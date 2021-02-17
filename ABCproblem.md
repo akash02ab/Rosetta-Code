@@ -57,7 +57,7 @@ True
 
 2. Base condition is when `word` is empty string then return empty list.
 
-3. Initialize `result` array and split word into two string, first one first `char` and second one is `remaining word`.
+3. Initialize `result` array and split word into two string, first one is first `char` and second one is `remaining word`.
 
 4. For each `block` in `blocks` list:
     * If `char` is found in `block`:
@@ -66,7 +66,7 @@ True
         * Recusively call `canMakeWord` with `remaining word` and modified `blocks` list.
         * Return the `result` array.
 
-5. Function will return `None` if `word` can not be made otherwise, return list of `block` used to make the word.
+5. Function will return `None` if `word` can not be spelled otherwise, return list of `block` used to spell the word.
 
 <br>
 
